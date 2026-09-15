@@ -1,0 +1,66 @@
+html:root {
+  --background: 190 37% 6%;
+  --foreground: 150 22% 93%;
+  --border: 190 17% 21%;
+  --input: 190 17% 25%;
+  --ring: 174 54% 55%;
+  --card: 190 27% 10%;
+  --card-foreground: 150 22% 93%;
+  --card-border: 190 20% 19%;
+  --primary: 184 43% 18%;
+  --primary-foreground: 150 23% 94%;
+  --secondary: 190 24% 15%;
+  --secondary-foreground: 150 22% 93%;
+  --muted: 190 20% 16%;
+  --muted-foreground: 184 10% 61%;
+  --accent: 174 54% 55%;
+  --accent-foreground: 190 37% 6%;
+  --destructive: 7 62% 58%;
+  --destructive-foreground: 150 22% 93%;
+  --sidebar: 190 36% 8%;
+  --sidebar-foreground: 184 16% 78%;
+  --sidebar-border: 190 24% 18%;
+  --sidebar-primary: 174 54% 55%;
+  --sidebar-primary-foreground: 190 37% 6%;
+  --sidebar-accent: 190 27% 14%;
+  --sidebar-accent-foreground: 150 22% 93%;
+  --shadow-sm: 0 2px 12px rgba(0, 0, 0, .16);
+  --shadow-md: 0 12px 32px rgba(0, 0, 0, .26);
+}
+
+html .app-shell,
+html .main-wrap { background: hsl(var(--background)); }
+html .sidebar { background: hsl(var(--sidebar)); border-right: 1px solid hsl(var(--sidebar-border)); }
+html .nav-label { color: hsl(184 10% 55%); }
+html .topbar { background: hsl(var(--card) / .82); }
+html .live-chip { color: hsl(166 47% 76%); background: hsl(166 33% 16%); border-color: hsl(166 33% 30%); }
+html .button:hover { background: hsl(190 24% 16%); }
+html .button.primary:hover { background: hsl(184 43% 24%); }
+html .button.teal:hover { background: hsl(174 54% 47%); }
+html .button.danger { color: hsl(7 70% 76%); background: hsl(7 33% 16%); border-color: hsl(7 38% 31%); }
+html .filter-row { background: hsl(190 24% 9% / .7); }
+html .filter.selected { color: hsl(var(--accent)); background: hsl(174 30% 16%); }
+html .alert-row:hover, html .alert-row.selected { background: hsl(190 25% 14%); }
+html .alert-meta span + span::before { color: hsl(184 10% 42%); }
+html .status-badge.pending { color: hsl(37 86% 74%); background: hsl(37 36% 17%); }
+html .status-badge.handled { color: hsl(166 47% 76%); background: hsl(166 33% 16%); }
+html .status-badge.dismissed { color: hsl(184 10% 65%); background: hsl(190 17% 17%); }
+html .queue-open-action:hover { background: hsl(190 25% 16%); }
+html .handled-state { border-color: hsl(166 33% 30%); background: hsl(166 33% 14%); color: hsl(166 47% 76%); }
+html .fleet-table tbody tr:hover { background: hsl(190 25% 14%); }
+html .demo-estimate { color: hsl(174 54% 72%); background: hsl(174 30% 14%); border-color: hsl(174 30% 29%); }
+html .activity-icon { background: hsl(174 30% 15%); }
+html .action-hero { background: linear-gradient(135deg, hsl(var(--card)) 0%, hsl(190 27% 13%) 100%); }
+html .confidence-pill.high { color: hsl(166 47% 76%); background: hsl(166 33% 16%); }
+html .confidence-pill.medium { color: hsl(37 86% 74%); background: hsl(37 36% 17%); }
+html .confidence-pill.low { color: hsl(7 70% 76%); background: hsl(7 33% 16%); }
+html .confidence-explainer { color: hsl(174 54% 72%); background: hsl(174 30% 14%); border-color: hsl(174 30% 29%); }
+html .confidence-example.high { border-color: hsl(166 33% 30%); }
+html .confidence-example.medium { border-color: hsl(37 45% 32%); }
+html .confidence-example.low { border-color: hsl(7 36% 34%); }
+html .example-outcome.eligible { color: hsl(166 47% 76%); background: hsl(166 33% 16%); }
+html .example-outcome.human { color: hsl(37 86% 74%); background: hsl(37 36% 17%); }
+html .automation-panel.locked { background: hsl(190 27% 10%); }
+html .choice-button.selected.yes { border-color: hsl(166 33% 42%); background: hsl(166 33% 16%); color: hsl(166 47% 80%); }
+html .choice-button.selected.no { border-color: hsl(190 17% 34%); background: hsl(190 17% 17%); color: hsl(var(--foreground)); }
+html .saved-note { color: hsl(166 47% 76%); background: hsl(166 33% 16%); }

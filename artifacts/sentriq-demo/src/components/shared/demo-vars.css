@@ -1,0 +1,13 @@
+:root {
+  --sq-ink: #e7f1ed;
+  --sq-muted: #8ea39f;
+  --sq-line: rgba(174, 211, 202, .2);
+  --sq-line-soft: rgba(174, 211, 202, .13);
+  --sq-card: #101d21;
+  --sq-card-alt: #152428;
+  --sq-teal: #83d2c0;
+  --sq-teal-wash: #173936;
+  --sq-amber: #e5b36f;
+  --sq-amber-wash: #3b2d20;
+  --sq-red: #d16b5b;
+}
