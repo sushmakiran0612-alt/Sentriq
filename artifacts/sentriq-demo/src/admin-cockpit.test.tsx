@@ -31,6 +31,7 @@ describe('role-specific admin action flows', () => {
     expect(screen.getByTestId('button-launchpad-cockpit')).not.toBeNull();
     expect(screen.getByRole('heading', { name: 'MSP' })).not.toBeNull();
     expect(screen.getByRole('heading', { name: 'Clients' })).not.toBeNull();
+    expect(screen.queryByText(/trusted by/i)).toBeNull();
 
     await openCockpit(user);
 
